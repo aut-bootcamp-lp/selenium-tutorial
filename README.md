@@ -5,7 +5,8 @@ In this repository is uploaded the chapters of [Test Automation University][Univ
 
 Link of course => [WebDriver with Java](https://testautomationu.applitools.com/selenium-webdriver-tutorial-java/ "WebDriver with Java")
 
-Autor for this branch **selenium/Junior**: Miguel Angel Junior Rodriguez Valda.
+Autor for this branch **selenium/Junior**: [Miguel Angel Junior Rodriguez Valda.](https://testautomationu.applitools.com/me.html#migueljunior/ "Perfil")
+
 
 Bootcamper in Foundation Jala.
 
