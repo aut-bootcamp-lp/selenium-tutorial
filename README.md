@@ -1,7 +1,7 @@
 # Tutorial Selenium
 
-In this repository is uploaded the chapters of [Test Automation University][University]
-[University]: https://testautomationu.applitools.com/ in his course Selenium WebDriver with Java.
+In this repository is uploaded the chapters of [Test Automation University](https://testautomationu.applitools.com/ "TAU") in his course Selenium WebDriver with Java.
+
 
 Link of course => [WebDriver with Java](https://testautomationu.applitools.com/selenium-webdriver-tutorial-java/ "WebDriver with Java")
 
