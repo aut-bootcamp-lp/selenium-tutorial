@@ -47,6 +47,11 @@ public class HomePage {
 
     }
 
+    public FileUpload clickOnFileUpload(){
+        clickLink("File Upload");
+        return new FileUpload(driver);
+    }
+
     private void clickLink(String linkText){
         driver.findElement(By.linkText(linkText)).click();
     }
