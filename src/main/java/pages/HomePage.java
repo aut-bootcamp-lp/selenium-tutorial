@@ -57,6 +57,11 @@ public class HomePage {
         return new EntryAdPage(driver);
     }
 
+    public ContextMenuPage clickOnContextMenu(){
+        clickLink("Context Menu");
+        return new ContextMenuPage(driver);
+    }
+
     private void clickLink(String linkText){
         driver.findElement(By.linkText(linkText)).click();
     }
