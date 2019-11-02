@@ -29,6 +29,7 @@ Bootcamper in Foundation Jala.
 ![Foundation Jala](https://media.licdn.com/dms/image/C4D0BAQHxYCKBPOEFoQ/company-logo_200_200/0?e=2159024400&v=beta&t=U-m956pcabD6Quk-q0bmpW4BvHVThAxFtAzhGazkLrc)
 ![Ubuntu](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoIWUGRRXU_q44Jr5-pMG4hFQtOyzmJSlrsA5RcETcWtIxr6ffvw&s)
 ![Open JDK](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX9rl-s8JjUC0Fe2_8e8DPh50wAxFyv7qu_iyWbgQTzAHT9svl_w&s)
-![Chromium](https://c1.staticflickr.com/5/4265/34447140833_a0c6d5c28e_o.png)
-![IntelliJ Idea](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/IntelliJ_IDEA_Logo.svg/1200px-IntelliJ_IDEA_Logo.svg.png)
+![IntelliJ Idea](https://www.daniellucia.es/wp-content/uploads/2017/10/intellij-idea.jpg)
+![Chromium](https://upload.wikimedia.org/wikipedia/commons/2/26/Chromium_logo.png)
+
 
