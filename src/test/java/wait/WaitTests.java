@@ -15,4 +15,13 @@ public class WaitTests extends BaseTests {
         String currentValue = loadingPage.getTextAfterLoading();
         assertEquals(expectedValue,currentValue);
     }
+
+    @Test
+    public void testWaitwithExample2(){
+        var loadingPage = homePage.clickOnDynamicLoagindPage().clickExample2();
+        loadingPage.clickStartButton();
+        String expectedValue = "Hello World!";
+        String currentValue = loadingPage.getMessage();
+        assertEquals(expectedValue,currentValue);
+    }
 }
