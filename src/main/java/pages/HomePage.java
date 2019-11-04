@@ -78,7 +78,7 @@ public class HomePage {
     }
 
     public InfiniteScrollPage clickOnInfiniteScrollPage(){
-        clickLink("Inifite Scroll");
+        clickLink("Infinite Scroll");
         return new InfiniteScrollPage(driver);
     }
 
