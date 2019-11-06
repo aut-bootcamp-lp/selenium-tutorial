@@ -30,6 +30,11 @@ public class HomePage {
         return new KeyPressedPage(drive);
     }
 
+    public AlertsPage clickJavaScriptAlerts(){
+        clickLink("JavaScript Alerts");
+        return new AlertsPage(drive);
+    }
+
     private void clickLink(String linkTest){
         drive.findElement(By.linkText(linkTest)).click();
     }
