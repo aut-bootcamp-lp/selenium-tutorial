@@ -20,6 +20,11 @@ public class HomePage {
         return new DropDownPage(drive);
     }
 
+    public HoverPage clickHovers(){
+        clickLink("Hovers");
+        return new HoverPage(drive);
+    }
+
     private void clickLink(String linkTest){
         drive.findElement(By.linkText(linkTest)).click();
     }

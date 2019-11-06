@@ -8,7 +8,6 @@ import org.openqa.selenium.support.ui.Select;
 import java.util.List;
 import java.util.stream.Collectors;
 
-
 public class DropDownPage {
     private WebDriver driver;
     private By dropdown = By.id("dropdown");
@@ -17,6 +16,11 @@ public class DropDownPage {
         this.driver = driver;
     }
 
+    private Select findDropDownElement() {
+        return new Select(driver.findElement(dropdown));
+    }
+
+
     public void selectFromDropDrown(String option) {
         findDropDownElement().selectByVisibleText(option);
     }
@@ -24,10 +28,8 @@ public class DropDownPage {
     public List<String> getSelectedOptions() {
 
         List<WebElement> selectedElements = findDropDownElement().getAllSelectedOptions();
-        return selectedElements.stream().map(e->e.getText()).collect(Collectors.toList());
+        return selectedElements.stream().map(e -> e.getText()).collect(Collectors.toList());
     }
 
-    private Select findDropDownElement() {
-        return new Select(driver.findElement(dropdown));
-    }
+
 }
