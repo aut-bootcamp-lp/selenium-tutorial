@@ -25,6 +25,11 @@ public class HomePage {
         return new HoverPage(drive);
     }
 
+    public KeyPressedPage clickKeyPressed(){
+        clickLink("Key Presses");
+        return new KeyPressedPage(drive);
+    }
+
     private void clickLink(String linkTest){
         drive.findElement(By.linkText(linkTest)).click();
     }
